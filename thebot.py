@@ -16,10 +16,10 @@ os.makedirs("sessions", exist_ok=True)
 # ——— TELEGRAM API ma’lumotlari ———
 api_id = 25351311
 api_hash = "7b854af9996797aa9ca67b42f1cd5cbe"
-bot_token = "7352312639:AAGdd-UI5J3qoJeW1BkECw4KDbxV1Ke-k-0"
+bot_token = "7352312639:AAEwQHVq5Uwhmnkc3ITk5vPLhVrRxCOWTcs"
 
 # 🔑 Kirish paroli
-ACCESS_PASSWORD = "mening_parolim"
+ACCESS_PASSWORD = "dnx"
 
 # 🎯 Har bir guruhga avtomatik qo'shiladigan bot
 TARGET_BOT = "@oxang_bot"
@@ -216,3 +216,4 @@ def keep_alive():
 if __name__ == "__main__":
     keep_alive()  # Web-server ishga tushadi
     asyncio.run(run_bot())  # Bot ishga tushadi
+
